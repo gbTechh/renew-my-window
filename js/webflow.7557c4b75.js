@@ -13511,9 +13511,9 @@ Webflow.require('ix2').init(
                                 "id":"d45f5751-07d5-7cbb-8f69-a93b9a01562f"
                              },
                              "globalSwatchId":"ac31998c",
-                             "rValue":66,
-                             "bValue":209,
-                             "gValue":75,
+                             "rValue":108,
+                             "bValue":76,
+                             "gValue":196,
                              "aValue":1
                           }
                        }
@@ -16129,7 +16129,7 @@ Webflow.require('ix2').init(
                                          "615bc204-77c9-32f7-9e44-328246f625e0"
                                       ]
                                    },
-                                   "xValue":2,
+                                   "xValue":30,
                                    "xUnit":"vw",
                                    "yUnit":"PX",
                                    "zUnit":"PX"
@@ -16150,7 +16150,7 @@ Webflow.require('ix2').init(
                                          "bddb071e-c54f-b378-ed3a-7989ef42a189"
                                       ]
                                    },
-                                   "xValue":0,
+                                   "xValue":-30,
                                    "xUnit":"vw",
                                    "yUnit":"PX",
                                    "zUnit":"PX"
