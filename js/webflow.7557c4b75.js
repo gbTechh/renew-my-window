@@ -13511,9 +13511,9 @@ Webflow.require('ix2').init(
                                 "id":"d45f5751-07d5-7cbb-8f69-a93b9a01562f"
                              },
                              "globalSwatchId":"ac31998c",
-                             "rValue":108,
-                             "bValue":76,
-                             "gValue":196,
+                             "rValue":19,
+                             "bValue":19,
+                             "gValue":19,
                              "aValue":1
                           }
                        }
@@ -13564,8 +13564,9 @@ Webflow.require('ix2').init(
                              "bValue":19,
                              "gValue":19,
                              "aValue":1
-                          }
-                       }
+                          },
+                          
+                       },
                     ]
                  }
               ],
