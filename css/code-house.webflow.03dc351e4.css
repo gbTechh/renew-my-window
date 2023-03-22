@@ -2530,7 +2530,7 @@ body {
   color: #000000;
   font-size: 16px;
   line-height: 140%;
-  background-color: #fff;
+  background-image: url("../images/15822.jpg");
   background-position: 50% 50%;
   /*background-size: auto 92%;*/
   background-size: cover;
@@ -2632,7 +2632,7 @@ blockquote {
 }
 
 .section.dark {
-    background-color: #f9f9f9;
+    background-color: #f9f9f900;
 }
 
 .section.case-studies {
@@ -2679,7 +2679,6 @@ blockquote {
 }
 
 .section.footer {
-   color: #fff !important;
   padding-bottom: 24px;
   /*background-color: #f9f9f900;*/
   background-color: #6cc14ca3;
@@ -2785,6 +2784,7 @@ blockquote {
   margin-left: auto;
   padding-right: 24px;
   padding-left: 24px;
+  margin-top: 10px;
 }
 
 .mega-h1 {
@@ -14107,7 +14107,7 @@ blockquote {
     margin-left: 0px;
     transform: rotate(-180deg);
     z-index: 1;
-    position: relative;
+    position: absolute;
 }
 
 /*services*/
@@ -14324,3 +14324,10 @@ max-width: calc(33.333333% - 10px);
 margin-top: 10px;
 }
 }
+
+
+
+
+
+
+
