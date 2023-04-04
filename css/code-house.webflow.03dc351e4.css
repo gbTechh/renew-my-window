@@ -5328,7 +5328,7 @@ blockquote {
 .blog-date {
   margin-top: 6px;
   margin-bottom: 12px;
-  color: #8e8e8f;
+  color: #000;
   font-size: 14px;
   line-height: 170%;
   font-weight: 500;
@@ -14069,9 +14069,10 @@ blockquote {
   align-items: center;
   background: #6cc14c96;
   border-radius: 0 0 18px 18px;
-  margin-top: -157px;
+  margin-top: -227px;
   z-index: 1;
   position: relative;
+  padding: 20px;
 }
 
 
@@ -14323,4 +14324,13 @@ flex: 0 0 33.333333%;
 max-width: calc(33.333333% - 10px);
 margin-top: 10px;
 }
+}
+
+.h3-blog:hover{
+  color: #000;
+}
+
+
+.h3-blog{
+  color: #000;
 }
