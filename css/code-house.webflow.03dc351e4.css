@@ -16666,4 +16666,8 @@ STYLES IAMGE MOVIBLE
   right: 0;
   opacity: 0;
   z-index: -1;
+  overflow:hidden;
+}
+.image-movible--hidden{
+  opacity:0;
 }
