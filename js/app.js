@@ -113,6 +113,25 @@ if (image) {
 
     }
   })
+
+  const div = document.querySelector('.js-fade');
+  addFadeClass(div)
+}
+
+
+
+function addFadeClass(div){
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-fade');
+      } else {
+        entry.target.classList.remove('is-fade');
+      }
+    });
+  });
+
+  observer.observe(div, { rootMargin: '0px 0px 0px 0px', threshold: 0 });
 }
 
 
