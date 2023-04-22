@@ -16223,7 +16223,7 @@ blockquote {
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("../FONTS/ITC-FranklinGothicLTPro-Bk")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-Bk.otf")
     format("opentype");
   font-weight: 300;
   font-style: italic;
@@ -16231,7 +16231,7 @@ blockquote {
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("../FONTS/ITC-FranklinGothicLTPro-Bk")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-Bk.otf")
     format("opentype");
   font-weight: 400;
   font-style: normal;
