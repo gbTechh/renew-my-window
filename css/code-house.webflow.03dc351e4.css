@@ -4,7 +4,7 @@
    ========================================================================== */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'Satoshi';
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -182,13 +182,7 @@ th {
 /* ==========================================================================
    Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
    ========================================================================== */
-@font-face {
-  font-family: "webflow-icons";
-  src: url("data:application/x-font-ttf;charset=utf-8;base64,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")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+
 [class^="w-icon-"],
 [class*=" w-icon-"] {
   font-family: "webflow-icons" !important;
@@ -16173,7 +16167,7 @@ blockquote {
 
 @font-face {
   font-family: "Satoshi";
-  src: url("./Fonts/")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-Dm.otf")
     format("opentype");
   font-weight: 700;
   font-style: normal;
@@ -16181,7 +16175,7 @@ blockquote {
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54b37759bdee4_Satoshi-BlackItalic-kopia.otf")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-Heavy.otf")
     format("opentype");
   font-weight: 900;
   font-style: italic;
@@ -16189,7 +16183,7 @@ blockquote {
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54b73ec9bdee5_Satoshi-BoldItalic.otf")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-DmIt.otf")
     format("opentype");
   font-weight: 700;
   font-style: italic;
@@ -16197,7 +16191,7 @@ blockquote {
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54bf3409bdedc_Satoshi-Black.otf")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-HeavyIt.otf")
     format("opentype");
   font-weight: 900;
   font-style: normal;
@@ -16205,7 +16199,7 @@ blockquote {
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54b954f9bdeda_Satoshi-Italic-kopia.otf")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-BkIt.otf")
     format("opentype");
   font-weight: 400;
   font-style: italic;
@@ -16213,7 +16207,7 @@ blockquote {
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54ba8d69bdeed_Satoshi-Light.otf")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-BkIt.otf")
     format("opentype");
   font-weight: 300;
   font-style: normal;
@@ -16221,7 +16215,7 @@ blockquote {
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54b1b309bdeeb_Satoshi-Medium.otf")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-Md.otf")
     format("opentype");
   font-weight: 500;
   font-style: normal;
@@ -16229,7 +16223,7 @@ blockquote {
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54be2ab9bdedb_Satoshi-LightItalic-kopia.otf")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-Bk")
     format("opentype");
   font-weight: 300;
   font-style: italic;
@@ -16237,7 +16231,7 @@ blockquote {
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54bd4759bded9_Satoshi-Regular-kopia.otf")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-Bk")
     format("opentype");
   font-weight: 400;
   font-style: normal;
@@ -16245,7 +16239,7 @@ blockquote {
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54b06849bdeec_Satoshi-MediumItalic-kopia.otf")
+  src: url("../FONTS/ITC-FranklinGothicLTPro-MdIt.otf")
     format("opentype");
   font-weight: 500;
   font-style: italic;
@@ -17062,4 +17056,10 @@ STYLES IAMGE MOVIBLE
 }
 .rs-justify-between{
   justify-content: space-between;
+}
+.rs-align-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
 }
