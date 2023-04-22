@@ -16089,6 +16089,7 @@ blockquote {
     grid-row-end: span 1;
   }
 }
+/*
 @font-face {
   font-family: "Satoshi";
   src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54b559b9bdee8_Satoshi-Bold.otf")
@@ -16168,8 +16169,88 @@ blockquote {
   font-weight: 500;
   font-style: italic;
   font-display: swap;
-}
+}*/
 
+@font-face {
+  font-family: "Satoshi";
+  src: url("./Fonts/")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54b37759bdee4_Satoshi-BlackItalic-kopia.otf")
+    format("opentype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54b73ec9bdee5_Satoshi-BoldItalic.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54bf3409bdedc_Satoshi-Black.otf")
+    format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54b954f9bdeda_Satoshi-Italic-kopia.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54ba8d69bdeed_Satoshi-Light.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54b1b309bdeeb_Satoshi-Medium.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54be2ab9bdedb_Satoshi-LightItalic-kopia.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54bd4759bded9_Satoshi-Regular-kopia.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.website-files.com/63ac9f7d74e54b13929bdead/63ac9f7d74e54b06849bdeec_Satoshi-MediumItalic-kopia.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
 .w-button-1 {
   width: 200px;
 }
@@ -16806,8 +16887,7 @@ STYLES IAMGE MOVIBLE
   width: 100vw;
   height: auto;
   min-height: 120px;
-  background: #000;
-  padding: 20px 50px;
+  padding: 10px 30px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -16815,23 +16895,23 @@ STYLES IAMGE MOVIBLE
 }
 .rs-black-section-hero__group{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  border-right: 1px solid #616161;
-  border-bottom: 0px solid #616161;
-  width: 25%;
-  padding-right: 40px;
-  padding-left: 40px;
+  width: calc(25% - 10px);
+  background: #000;
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin: 0 5px;
   
 }
 
-.rs-black-section-hero__group:last-child{
-  border-right: 0px solid #616161;  
-  padding-right: 0px;
-}
+
 .rs-black-section-hero__img-box{
   width: 50px;
-  height: 40px;
+  height: 50px;
   display: block;
+  margin-bottom: 20px;
+
 }
 .rs-black-section-hero__img{
   width: 100%;
@@ -16846,13 +16926,13 @@ STYLES IAMGE MOVIBLE
   height: auto;
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
 }
 .rs-black-section-hero__text{
   color: #5E8C49;
   margin: 0;
   padding: 0;
   font-weight: bold;
+  text-align: center;
 }
 .rs-navbar-desktop{
   display: flex;
@@ -16874,24 +16954,18 @@ STYLES IAMGE MOVIBLE
 }
 
 @media (max-width: 931px){
+  
   .rs-black-section-hero{   
     padding: 5px;    
   }
   .rs-black-section-hero__group{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #616161;
-    border-right: 0px solid #616161;
     width: 100%;
-    padding: 20px
+    margin: 2px 0;
    
   }
-  .rs-black-section-hero__group:last-child{
-    
-    border-bottom: 0px solid #616161;
-    padding-right: 40px;
-   
-  }
+ 
   .rs-black-section-hero{   
     height: auto;  
     flex-direction: column;  
@@ -16906,14 +16980,76 @@ STYLES IAMGE MOVIBLE
   .menu-hidden-mobil{
     display: none;
   }
+  .rs-navbar-desktop{
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .who-we-are-menu.rs-flex{
+    display: none;
+  }
 }
 
+.who-we-are-menu{
+  display: flex;
+  position: relative;
+  width: 100%;
+  grid-column: 1/4;
+  flex-direction: row;
+  height: auto;
+  overflow: visible;
+  min-height: auto;
+  justify-content: center;
+  border:none;
+  box-shadow: none;
+  margin-bottom: 30px;
+}
+.who-we-are-menu.rs-flex{
+  display: flex;
+}
+.rs-column-menu{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.w-webflow-badge{
+  display: none !important;
+}
 
+@media (min-width: 994px){
+  .rs-menu-burguer{
+    display: none;
+  }
+}
 
+.w-dyn-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
 
-
-
-
+.who-we-are-menu__group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.who-we-are-menu__icon{
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 1px 8px 0 rgba(80, 80, 80, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.who-we-are-menu__icon-img{
+  width: 60%;
+  height: 60%;
+}
 
 .rs-text-white{
   color:#fff;
