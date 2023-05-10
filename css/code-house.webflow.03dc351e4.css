@@ -16859,7 +16859,6 @@ STYLES IAMGE MOVIBLE
   padding-bottom: 20px;
 }
 .rs-hero-home{
-  margin-top: 60px;
   padding-top: 0 !important;
   position: relative;
 }
@@ -17062,4 +17061,17 @@ STYLES IAMGE MOVIBLE
   align-items: center;
   justify-content: center;
   padding-top: 5px;
+}
+
+.rs-index-banner{
+  width: 100%;
+  background: black;
+  height: 60px;
+  padding: 10px;
+  position:relative;
+}
+.rs-navbar{
+  position:relative;
+  padding: 40px;
+  display: flex;
 }
