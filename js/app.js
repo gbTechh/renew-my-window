@@ -30,7 +30,7 @@ if (image) {
     const boxDistanciaFromTop2 = rectBox2.top + window.scrollY
     const imgDistanciaFromTop = rectImage.top + window.scrollY
     const imgDistanciaFromTop2 = rectImage.top + window.scrollY
-    console.log(window.innerHeight)
+    // console.log(window.innerHeight)
 
     const initPoint = imgDistanciaFromTop - (window.innerHeight / 2)
     const initPoint2 = imgDistanciaFromTop2 - (window.innerHeight / 2)
@@ -77,7 +77,7 @@ if (image) {
         boxEnd.style.transition = '0.3s opacity ease-in-out'
         boxEnd2.style.transition = '0.3s opacity ease-in-out'
       } else {
-        console.log('else')
+        // console.log('else')
         image.style.width = `${widthBox}px`
         image2.style.width = `${widthBox2}px`
         image.style.maxWidth = `${widthBox}px`
@@ -102,7 +102,7 @@ if (image) {
 
       }
       image.style.transform = `tr`
-      console.log({percent})
+      // console.log({percent})
     } else {
       image.style.opacity = '0'
       image2.style.opacity = '0'
@@ -135,6 +135,23 @@ function addFadeClass(div){
 }
 
 
+function singleTab(){
+  document.querySelectorAll('.rs-js-single-tab').forEach(e => {
+    let item = e.getAttribute('data-item')
+    e.addEventListener('click', function(ev){
+      document.querySelectorAll('.rs-tabs-item').forEach(e => {
+        e.classList.add('rs-hidden')
+        e.classList.remove('rs-show')
+      })
+      console.log(document.querySelector(`div[data-item="guarantee"].rs-tabs-item`))
+      document.querySelector(`div[data-item="${item}"].rs-tabs-item`).classList.add('rs-show');
+      document.querySelector(`div[data-item="${item}"].rs-tabs-item`).classList.remove('rs-hidden');
+    })
+  })
+}
 
+document.addEventListener("DOMContentLoaded", (event) => {
+  singleTab();
 
+});
 
