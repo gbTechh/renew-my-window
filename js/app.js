@@ -143,7 +143,6 @@ function singleTab(){
         e.classList.add('rs-hidden')
         e.classList.remove('rs-show')
       })
-      console.log(document.querySelector(`div[data-item="guarantee"].rs-tabs-item`))
       document.querySelector(`div[data-item="${item}"].rs-tabs-item`).classList.add('rs-show');
       document.querySelector(`div[data-item="${item}"].rs-tabs-item`).classList.remove('rs-hidden');
     })
