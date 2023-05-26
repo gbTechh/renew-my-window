@@ -1,4 +1,5 @@
-const image = document.getElementById("js-image-movible-box");
+// const image = document.getElementById("js-image-movible-box");
+let image = false;
 const image2 = document.getElementById("js-image-movible-box-2");
 const imageHidden = document.getElementById("js-image-movible-hidden");
 const widthImage = image.offsetWidth;

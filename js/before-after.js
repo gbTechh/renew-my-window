@@ -11,7 +11,7 @@ function fn(){
   const widthContainer = container.offsetWidth;
   const imageCrop = document.querySelector('.rs-after-img')
   
-  let initPositionDrag = widthContainer - (widthDrag / 2);
+  let initPositionDrag = widthContainer - (widthDrag);
   let initPositionDrag2 = widthContainer;
   let isDragging = false;
   let dragOffsetX = 0;
