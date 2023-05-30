@@ -17079,6 +17079,7 @@ STYLES IAMGE MOVIBLE
   height: 60px;
   padding: 10px;
   position: relative;
+  overflow: hidden;
 }
 .rs-navbar {
   position: relative;
@@ -17086,7 +17087,7 @@ STYLES IAMGE MOVIBLE
   display: flex;
 }
 .rs-index-title-banner {
-  width: 100%;
+  width: max-content;
   text-align: center;
   color: #fff;
   display: flex;
@@ -17096,19 +17097,19 @@ STYLES IAMGE MOVIBLE
   font-family: "Satoshi";
   font-weight: 500;
   font-size: 20px;
-  animation: moving-text 25s linear infinite;
+  animation: movingtext 25s linear infinite;
   position: relative;
   top: 0;
 }
 
-@keyframes moving-text {
+@keyframes movingtext {
   to {
     transform: translateX(-100%);
   }
   from {
     transform: translateX(100%);
   }
-}
+} 
 .rs-hidden {
   display: none;
 }
@@ -17331,6 +17332,14 @@ STYLES IAMGE MOVIBLE
 .rs-footer {
   background: transparent !important;
   padding-top: 0;
+}
+@media (max-width: 991px){
+  .rs-footer-content{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+  }
 }
 .rs-footer-guarantee {
   background: #6cc14c;
