@@ -17356,10 +17356,15 @@ STYLES IAMGE MOVIBLE
   width: 100%;
   text-align: center;
   margin: 0;
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 790px){
+  .rs-footer-guarantee-text{
+    font-size: 18px;
+  }
 }
 .rs-footer-about {
   grid-column: 2/3 !important;
